@@ -38,58 +38,180 @@
       <span class="muted">Antwortet binnen 24h</span>
     </div>
     <nav>
-      <a class="btn" href="#projekte" aria-label="Zu Projekte">Projekte</a>
       <a class="btn" href="#web" aria-label="Zu Web & UX">Web & UX</a>
+      <a class="btn" href="#projekte" aria-label="Zu Projekte">Projekte</a>
       <a class="btn" href="#leistungen" aria-label="Zu Leistungen">Leistungen</a>
       <a class="btn primary" href="mailto:marlongreta1@gmail.com" aria-label="Kontakt per E-Mail">Projekt anfragen</a>
     </nav>
   </header>
 
   <!-- ====================== MAIN CONTENT ====================== -->
-  <main class="container">
-    <!-- ====================== HERO ====================== -->
-    <section class="hero">
-      <!-- Hero-Textkarte (USP, Call-to-Action, KPIs) -->
-      <div class="card">
-        <span class="tag">Wirtschaftsinformatik</span>
-        <span class="tag">Webseiten & Landingpages</span>
-        <h1>Klare Dashboards & automatisierte Reports – <span class="muted">ohne Excel-Chaos</span>.</h1>
-        <p class="muted">Data Analysis, Power BI, Python & Prozessautomatisierung. Planbare Kennzahlen, weniger manuelle Arbeit, bessere Entscheidungen.</p>
-        <!-- CTA-Buttons -->
-        <div style="display:flex;gap:12px;margin-top:14px">
-          <a class="btn primary" href="mailto:marlongreta1gmail.com">Kostenloses Erstgespräch</a>
-          <a class="btn" href="#case-01">Fallstudie lesen</a>
+<main class="container">
+  <!-- ====================== HERO ====================== -->
+  <section class="hero">
+    <!-- Hero-Textkarte (USP, Call-to-Action, KPIs) -->
+    <div class="card">
+      <span class="tag">Webseiten, Landingpages & UX</span>
+      <h1>Klare Websites & Landingpages – <span class="muted">die wirklich konvertieren</span>.</h1>
+      <p class="muted">
+        Schlanke, schnelle Websites mit klarem Fokus auf UX & Conversion. Sauberes HTML/CSS/JS,
+        Performance, SEO-Basics & Analytics – damit Besucher zu Kunden werden.
+      </p>
+      <!-- CTA-Buttons -->
+      <div style="display:flex;gap:12px;margin-top:14px">
+        <a class="btn primary" href="mailto:marlongreta1@gmail.com">Kostenloses Erstgespräch</a>
+        <a class="btn" href="#web">Web-Projekte ansehen</a>
+      </div>
+      <!-- KPI-Kacheln -->
+      <div class="kpis">
+        <div class="kpi">
+          <div class="muted">Go-Live</div>
+          <div class="price"><span class="num">7–21</span><span>&nbsp;Tage</span></div>
         </div>
-        <!-- KPI-Kacheln -->
-        <div class="kpis">
-          <div class="kpi">
-            <div class="muted">Zeitersparnis</div>
-            <div class="price"><span class="num">5–10h</span>/<span>Woche</span></div>
-          </div>
-          <div class="kpi">
-            <div class="muted">Umsetzung</div>
-            <div class="price"><span class="num">7–14</span><span>&nbsp;Tage</span></div>
-          </div>
-          <div class="kpi">
-            <div class="muted">Zufriedenheit</div>
-            <div class="price"><span class="num">100%</span><span>&nbsp;Garantie*</span></div>
-          </div>
+        <div class="kpi">
+          <div class="muted">Performance</div>
+          <div class="price"><span class="num">90+</span><span>&nbsp;Lighthouse</span></div>
+        </div>
+        <div class="kpi">
+          <div class="muted">Zufriedenheit</div>
+          <div class="price"><span class="num">100%</span><span>&nbsp;Garantie*</span></div>
         </div>
       </div>
+    </div>
+  </section>
 
-      <!-- Referenzen/Logowand -->
-      <div class="card">
-        <h2>Referenzen & Logos</h2>
-        <p class="muted">Platz für 3–6 kleine Logos von Kunden oder Projekten. Alternativ kurze Testimonials.</p>
-        <div class="grid grid-3" aria-label="Logowall Dummy">
-          <div class="thumb" role="img" aria-label="Logo Platzhalter"></div>
-          <div class="thumb" role="img" aria-label="Logo Platzhalter"></div>
-          <div class="thumb" role="img" aria-label="Logo Platzhalter"></div>
-        </div>
+
+    <!-- ====================== WEB & UX (jetzt direkt nach Hero) ====================== -->
+    <section id="web" class="section">
+      <h2>Web & UX</h2>
+
+      <!-- kurze Einleitung (optional) -->
+      <p class="muted" style="margin:6px 0 18px">
+        Performante Websites & Landingpages – sauber umgesetzt, messbar und wartbar.
+      </p>
+
+      <div class="grid grid-3">
+        <!-- Web-Projekt 1 -->
+        <article class="card project">
+          <!-- TIPP: Ersetze die Gradient-Thumb später durch einen Screenshot -->
+          <div class="thumb" aria-hidden="true"
+               style="background:
+                 radial-gradient(80% 100% at 20% 0%, rgba(34,211,238,.22), transparent),
+                 radial-gradient(80% 100% at 120% 100%, rgba(110,231,183,.18), transparent),
+                 url('images/landing1.jpg') center/cover no-repeat, #0e1522;
+               ">
+          </div>
+          <div>
+            <span class="tag">HTML/CSS</span>
+            <span class="tag">Performance</span>
+          </div>
+          <h3>Landingpage für Kampagne</h3>
+          <p>Leichtgewichtige Page mit klarer Conversion-Story.</p>
+          <ul class="muted" style="margin:0 0 4px 18px">
+            <li>– Lighthouse 95+/100</li>
+            <li>– +28% Anfragen</li>
+          </ul>
+          <div style="display:flex;gap:10px;flex-wrap:wrap">
+            <a class="btn" href="https://dergutefreund.at/" target="_blank" rel="noopener">🟢 Live</a>
+            <a class="btn" href="https://github.com/mrgreata" target="_blank" rel="noopener">👨‍💻 Code</a>
+          </div>
+        </article>
+
+        <!-- Web-Projekt 2 -->
+        <article class="card project">
+          <div class="thumb" aria-hidden="true"
+               style="background:
+                 radial-gradient(80% 100% at 20% 0%, rgba(34,211,238,.22), transparent),
+                 radial-gradient(80% 100% at 120% 100%, rgba(110,231,183,.18), transparent),
+                 url('images/portfolio.jpg') center/cover no-repeat, #0e1522;">
+          </div>
+          <div>
+            <span class="tag">Vanilla JS</span>
+            <span class="tag">SEO</span>
+          </div>
+          <h3>Portfolio/Company Site</h3>
+          <p>Saubere Informationsarchitektur, schnelle Ladezeiten, On-Page SEO.</p>
+          <ul class="muted" style="margin:0 0 4px 18px">
+            <li>– Core Web Vitals „grün“</li>
+          </ul>
+          <div style="display:flex;gap:10px;flex-wrap:wrap">
+            <a class="btn" href="https://mrgreata.github.io/Web-Medics/" target="_blank" rel="noopener">🟢 Live</a>
+            <a class="btn" href="https://github.com/mrgreata/Web-Medics" target="_blank" rel="noopener">👨‍💻 Code</a>
+          </div>
+        </article>
+
+        <!-- Web-Projekt 3 -->
+        <article class="card project">
+          <div class="thumb" aria-hidden="true"
+               style="background:
+                 radial-gradient(80% 100% at 20% 0%, rgba(34,211,238,.22), transparent),
+                 radial-gradient(80% 100% at 120% 100%, rgba(110,231,183,.18), transparent),
+                 url('images/admin-ui.jpg') center/cover no-repeat, #0e1522;">
+          </div>
+          <div>
+            <span class="tag">API</span>
+            <span class="tag">Dashboard UI</span>
+          </div>
+          <h3>Mini-Admin mit API-Einbindung</h3>
+          <p>Frontend für interne Datenansicht (Read-only) mit Fetch/CSV-Export.</p>
+          <ul class="muted" style="margin:0 0 4px 18px">
+            <li>– <abbr title="Time To Interactive">TTI</abbr> &lt; 1.5s</li>
+          </ul>
+          <div style="display:flex;gap:10px;flex-wrap:wrap">
+            <a class="btn" href="https://live-link-3.tld" target="_blank" rel="noopener">🟢 Live</a>
+            <a class="btn" href="https://github.com/mrgreata" target="_blank" rel="noopener">👨‍💻 Code</a>
+          </div>
+        </article>
       </div>
     </section>
 
-    <!-- ====================== PROJEKTE ====================== -->
+    <!-- ====================== PAKETE & PREISE – WEB & UX (auch vor Analytics) ====================== -->
+    <section class="section">
+      <h2>Pakete & Preise – Web & UX</h2>
+      <div class="grid grid-3">
+        
+        <div class="card">
+          <h3>Starter</h3>
+          <p class="muted">Onepager oder kleine Portfolio-Seite</p>
+          <div class="price"><span class="num">€ 890</span><span>einmalig</span></div>
+          <ul class="muted" style="margin-left:18px">
+            <li> bis 3 Unterseiten</li>
+            <li> Responsive Design</li>
+            <li> Grund-SEO & Performance-Setup</li>
+          </ul>
+          <a class="btn" href="mailto:marlongreta1@gmail.com">Anfragen</a>
+        </div>
+        
+        <div class="card">
+          <h3>Business</h3>
+          <p class="muted">Individuelle Website mit CMS & UX-Fokus</p>
+          <div class="price"><span class="num">€ 2.490</span><span>einmalig</span></div>
+          <ul class="muted" style="margin-left:18px">
+            <li> bis 8 Unterseiten</li>
+            <li> Individuelles UI-Design (Figma oder direkt im Code)</li>
+            <li> CMS-Integration (z. B. Webflow, WordPress oder Headless)</li>
+            <li> SEO-Basics & Launch-Optimierung</li>
+          </ul>
+          <a class="btn" href="mailto:marlongreta1@gmail.com">Anfragen</a>
+        </div>
+        
+        <div class="card">
+          <h3>Care</h3>
+          <p class="muted">Laufende Betreuung, Updates & Optimierung</p>
+          <div class="price"><span class="num">€ 190</span><span>/Monat</span></div>
+          <ul class="muted" style="margin-left:18px">
+            <li> Regelmäßige Backups & Sicherheitsupdates</li>
+            <li> Inhaltspflege (Texte, Bilder, Blog etc.)</li>
+            <li> Kleine Design- oder UX-Verbesserungen</li>
+            <li> Priorisierter Support</li>
+          </ul>
+          <a class="btn" href="mailto:marlongreta1@gmail.com">Anfragen</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ====================== PROJEKTE (Analytics/Reporting) ====================== -->
     <section id="projekte" class="section">
       <div class="grid grid-3">
         <!-- Projektkarte 1 -->
@@ -141,93 +263,7 @@
       </div>
     </section>
 
-    <!-- ====================== WEB & UX ====================== -->
-<section id="web" class="section">
-  <h2>Web & UX</h2>
-
-  <!-- kurze Einleitung (optional) -->
-  <p class="muted" style="margin:6px 0 18px">
-    Performante Websites & Landingpages – sauber umgesetzt, messbar und wartbar.
-  </p>
-
-  <div class="grid grid-3">
-    <!-- Web-Projekt 1 -->
-    <article class="card project">
-      <!-- TIPP: Ersetze die Gradient-Thumb später durch einen Screenshot -->
-      <div class="thumb" aria-hidden="true"
-           style="background:
-             radial-gradient(80% 100% at 20% 0%, rgba(34,211,238,.22), transparent),
-             radial-gradient(80% 100% at 120% 100%, rgba(110,231,183,.18), transparent),
-             url('images/landing1.jpg') center/cover no-repeat, #0e1522;
-           ">
-      </div>
-      <div>
-        <span class="tag">HTML/CSS</span>
-        <span class="tag">Performance</span>
-      </div>
-      <h3>Landingpage für Kampagne</h3>
-      <p>Leichtgewichtige Page mit klarer Conversion-Story.</p>
-      <ul class="muted" style="margin:0 0 4px 18px">
-        <li>– Lighthouse 95+/100</li>
-        <li>– +28% Anfragen</li>
-      </ul>
-      <div style="display:flex;gap:10px;flex-wrap:wrap">
-        <a class="btn" href="https://dein-live-link.tld" target="_blank" rel="noopener">🟢 Live</a>
-        <a class="btn" href="https://github.com/mrgreata" target="_blank" rel="noopener">👨‍💻 Code</a>
-      </div>
-    </article>
-
-    <!-- Web-Projekt 2 -->
-    <article class="card project">
-      <div class="thumb" aria-hidden="true"
-           style="background:
-             radial-gradient(80% 100% at 20% 0%, rgba(34,211,238,.22), transparent),
-             radial-gradient(80% 100% at 120% 100%, rgba(110,231,183,.18), transparent),
-             url('images/portfolio.jpg') center/cover no-repeat, #0e1522;">
-      </div>
-      <div>
-        <span class="tag">Vanilla JS</span>
-        <span class="tag">SEO</span>
-      </div>
-      <h3>Portfolio/Company Site</h3>
-      <p>Saubere Informationsarchitektur, schnelle Ladezeiten, On-Page SEO.</p>
-      <ul class="muted" style="margin:0 0 4px 18px">
-        <li>– Core Web Vitals „grün“</li>
-      </ul>
-      <div style="display:flex;gap:10px;flex-wrap:wrap">
-        <a class="btn" href="https://live-link-2.tld" target="_blank" rel="noopener">🟢 Live</a>
-        <a class="btn" href="https://github.com/mrgreata" target="_blank" rel="noopener">👨‍💻 Code</a>
-      </div>
-    </article>
-
-    <!-- Web-Projekt 3 -->
-    <article class="card project">
-      <div class="thumb" aria-hidden="true"
-           style="background:
-             radial-gradient(80% 100% at 20% 0%, rgba(34,211,238,.22), transparent),
-             radial-gradient(80% 100% at 120% 100%, rgba(110,231,183,.18), transparent),
-             url('images/admin-ui.jpg') center/cover no-repeat, #0e1522;">
-      </div>
-      <div>
-        <span class="tag">API</span>
-        <span class="tag">Dashboard UI</span>
-      </div>
-      <h3>Mini-Admin mit API-Einbindung</h3>
-      <p>Frontend für interne Datenansicht (Read-only) mit Fetch/CSV-Export.</p>
-      <ul class="muted" style="margin:0 0 4px 18px">
-        <li>– <abbr title="Time To Interactive">TTI</abbr> < 1.5s</li>
-      </ul>
-      <div style="display:flex;gap:10px;flex-wrap:wrap">
-        <a class="btn" href="https://live-link-3.tld" target="_blank" rel="noopener">🟢 Live</a>
-        <a class="btn" href="https://github.com/mrgreata" target="_blank" rel="noopener">👨‍💻 Code</a>
-      </div>
-    </article>
-  </div>
-</section>
-
-
-
-    <!-- ====================== LEISTUNGEN ====================== -->
+    <!-- ====================== LEISTUNGEN (Analytics etc.) ====================== -->
     <section id="leistungen" class="section">
       <h2>Leistungen</h2>
       <div class="grid grid-2">
@@ -262,7 +298,7 @@
       </div>
     </section>
 
-    <!-- ====================== PAKETE & PREISE ====================== -->
+    <!-- ====================== PAKETE & PREISE – ANALYTICS (jetzt nachgelagert) ====================== -->
     <section class="section">
       <h2>Pakete & Preise - Analytics</h2>
       <div class="grid grid-3">
@@ -275,7 +311,7 @@
             <li> 3 Kern-KPIs</li>
             <li> Handover-Call</li>
           </ul>
-          <a class="btn" href="mailto:marlongreta1gmail.com">Anfragen</a>
+          <a class="btn" href="mailto:marlongreta1@gmail.com">Anfragen</a>
         </div>
         <div class="card">
           <h3>Business</h3>
@@ -286,7 +322,7 @@
             <li> inkl. Dokumentation</li>
             <li> 2 Wochen Support</li>
           </ul>
-          <a class="btn" href="mailto:marlongreta1gmail.com">Anfragen</a>
+          <a class="btn" href="mailto:marlongreta1@gmail.com">Anfragen</a>
         </div>
         <div class="card">
           <h3>Care</h3>
@@ -297,58 +333,10 @@
             <li> KPI-Updates</li>
             <li> Priorisierter Support</li>
           </ul>
-          <a class="btn" href="mailto:marlongreta1gmail.com">Anfragen</a>
+          <a class="btn" href="mailto:marlongreta1@gmail.com">Anfragen</a>
         </div>
       </div>
     </section>
-
-    <section class="section">
-  <h2>Pakete & Preise – Web & UX</h2>
-  <div class="grid grid-3">
-    
-    <div class="card">
-      <h3>Starter</h3>
-      <p class="muted">Onepager oder kleine Portfolio-Seite</p>
-      <div class="price"><span class="num">€ 890</span><span>einmalig</span></div>
-      <ul class="muted" style="margin-left:18px">
-        <li> bis 3 Unterseiten</li>
-        <li> Responsive Design</li>
-        <li> Grund-SEO & Performance-Setup</li>
-      </ul>
-      <a class="btn" href="mailto:marlongreta1gmail.com">Anfragen</a>
-    </div>
-    
-    <div class="card">
-      <h3>Business</h3>
-      <p class="muted">Individuelle Website mit CMS & UX-Fokus</p>
-      <div class="price"><span class="num">€ 2.490</span><span>einmalig</span></div>
-      <ul class="muted" style="margin-left:18px">
-        <li> bis 8 Unterseiten</li>
-        <li> Individuelles UI-Design (Figma oder direkt im Code)</li>
-        <li> CMS-Integration (z. B. Webflow, WordPress oder Headless)</li>
-        <li> SEO-Basics & Launch-Optimierung</li>
-      </ul>
-      <a class="btn" href="mailto:marlongreta1gmail.com">Anfragen</a>
-    </div>
-    
-    <div class="card">
-      <h3>Care</h3>
-      <p class="muted">Laufende Betreuung, Updates & Optimierung</p>
-      <div class="price"><span class="num">€ 190</span><span>/Monat</span></div>
-      <ul class="muted" style="margin-left:18px">
-        <li> Regelmäßige Backups & Sicherheitsupdates</li>
-        <li> Inhaltspflege (Texte, Bilder, Blog etc.)</li>
-        <li> Kleine Design- oder UX-Verbesserungen</li>
-        <li> Priorisierter Support</li>
-      </ul>
-      <a class="btn" href="mailto:marlongreta1gmail.com">Anfragen</a>
-    </div>
-
-  </div>
-</section>
-
-
-
 
     <!-- ====================== ÜBER MICH ====================== -->
     <section class="section">
@@ -368,8 +356,8 @@
         <h2>Kontakt</h2>
         <p class="muted">Schreib mir, was du messen oder automatisieren möchtest. Ich antworte innerhalb von 24 Stunden.</p>
         <div style="display:flex;gap:12px;flex-wrap:wrap">
-          <a class="btn primary" href="mailto:marlongreta1gmail.com">E-Mail</a>
-          <a class="btn primary" href="06767022807">Anrufen</a>
+          <a class="btn primary" href="mailto:marlongreta1@gmail.com">E-Mail</a>
+          <a class="btn primary" href="tel:06767022807">Anrufen</a>
           <a class="btn" href="https://github.com/mrgreata" target="_blank" rel="noopener">GitHub</a>
           <a class="btn" href="https://linkedin.com/in/marlon-greta" target="_blank" rel="noopener">LinkedIn</a>
         </div>
@@ -383,7 +371,7 @@
     </footer>
   </main>
 
-  <!-- JS: aktuelles Jahr im Footer -->°
+  <!-- JS: aktuelles Jahr im Footer -->
   <script>
     document.getElementById('y').textContent = new Date().getFullYear();
   </script>
